@@ -17,7 +17,7 @@ You need to setup your machine before you should run the challenges.
 
 Bicep is a new template language which is used to create the ARM template. You can either write ARM JSON from scratch or use Bicep language to create the ARM template. Bicep is a domain-specific language(DSL) that uses declarative syntax to deploy Azure resources.
 
-![Bicep to resources](./images/bicep.png)
+![Bicep to resources](./Images/bicep.png)
 
 You can read more about [Bicep here](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep).
 
