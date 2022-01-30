@@ -2,7 +2,19 @@
 
 This repo contains the challenges to learn the [Bicep](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep).
 
+## Environment Setup
+
+You need to setup your machine before you should run the challenges.
+
+- Visual studio code
+  - You can download the VS code from [here](https://code.visualstudio.com/download)
+- Visual Studio code Bicep extension
+  - Install the VS code extension from [here](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-bicep)
+- CLI setup
+  - Please refer this [link](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/install) to install & run Bicep. You can use either Azure CLI or Powershell.
+
 ## What is Bicep
+
 Bicep is a new template language which is used to create the ARM template. You can either write ARM JSON from scratch or use Bicep language to create the ARM template. Bicep is a domain-specific language(DSL) that uses declarative syntax to deploy Azure resources.
 
 ![Bicep to resources](./images/bicep.png)
@@ -13,7 +25,11 @@ You can read more about [Bicep here](https://docs.microsoft.com/en-us/azure/azur
 
 This workshop will help you to understand & implement the Bicep language. You will go through multiple challenges and after completing the challenges you should have working knowledge of Bicep.
 
-### Engineering Docs
+## How to run the challenges
+
+Before you 
+
+## Engineering Docs
 
 - Team Working [Agreement](.github/WorkingAgreement.md)
 - Team [Engineering Practices](.github/EngineeringPractices.md)
