@@ -25,7 +25,7 @@ You need to setup your machine before you should run the challenges.
 - CLI setup
   - Please refer this [link](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/install) to install & run Bicep. You can use either Azure CLI or Powershell.
 
-Once you have setup your environment, You can start the bicep workshop [challenges](./Challenge1.md).
+Once you have setup your environment, You can start the bicep workshop [challenges](./Challenges/Challenge1.md).
 
 <hr/>
 
