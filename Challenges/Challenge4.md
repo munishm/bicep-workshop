@@ -1,6 +1,6 @@
 # Challenge 4: Publishing Artifcats
 
-In the [previous challenge](./Challenge3.md) you created the automated pipelines to provision the infrastructure for the applications.
+In the [previous challenge](./Challenge3.md) you created the automated pipelines to provision the infrastructure for the applications. Let us now work on publishing the bicep templates.
 
 ## Challenge
 

@@ -1,6 +1,6 @@
 # Challenge 3: What about Environments
 
-Excellent work on completing the full application with dependencies template in [challenge 2](./Challenge2.md)
+Excellent work on completing the full application with dependencies template in [challenge 2](./Challenge2.md). Let us now work on creating different environments using a template.
 
 ## Challenge
 

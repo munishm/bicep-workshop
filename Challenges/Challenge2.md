@@ -1,6 +1,6 @@
 # Challenge 2: Complete Stack
 
-Congratulations on creating your first Bicep template in [Challenge 1](./Challenge1.md). Now you have basic understanding of how Bicep works and how do you deploy your Bicep templates.
+Congratulations on creating your first Bicep template in [Challenge 1](./Challenge1.md). Now you have basic understanding of how Bicep works and how do you deploy your Bicep templates. Let us now work on a new template for a full stack application.
 
 ## Challenge
 
