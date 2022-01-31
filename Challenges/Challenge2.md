@@ -27,9 +27,9 @@ Things to keep in mind while developing & deploying the template:
 - What-IF analysis to check the correct changes to the resources
 - Ways to troubleshoot deployment errors
 
-### References:
+### References
 
-- [Best Practices](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/best-practices)
+- [Bicep best Practices](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/best-practices)
 - [Sharing variables across Bicep Files](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/patterns-shared-variable-file)
 - [Naming conventions & generation pattern](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/patterns-name-generation)
 - [Secret management Scenarios](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/scenarios-secrets)

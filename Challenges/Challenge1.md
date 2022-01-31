@@ -41,6 +41,6 @@ Bicep also helps to convert the Bicep templates to JSON templates in case you wa
 
 Try converting your bicep template to the JSON template.
 
-Congratulations on completing your first Bicep challenge. Let's now move to writing some more templates. 
+Congratulations on completing your first Bicep challenge. Let's now move to writing some more templates.
 
 [Click here](./Challenge2.md) to go to next Challenge 2.
