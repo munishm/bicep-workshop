@@ -7,7 +7,7 @@ Congratulations on creating your first Bicep template in [Challenge 1](./Challen
 "ChocoFaco" development team is moving from Virtual machines to managed services on Azure. Their new application needs to run on a windows App service which also requires some dependecies to run. You are given a task to do the following:
 
 1. Create a new Windows App service & share the app service URL with the development team.
-2. The Application also requires a Cosmos DB to persist the data.
+2. The Application also requires a Cosmos DB SQL API to persist the data.
 3. The Application stores files into Blob storage account.
 4. The Application also uses a SignalR service to messaging game play with kids.
 

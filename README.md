@@ -1,6 +1,18 @@
+## What is Bicep
+
+Bicep is a new template language which is used to create the ARM template. You can either write ARM JSON from scratch or use Bicep language to create the ARM template. Bicep is a domain-specific language(DSL) that uses declarative syntax to deploy Azure resources.
+
+![Bicep to resources](./Images/bicep.png)
+
+You can read more about [Bicep here](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep).
+
+>If you have provisioned JSON templates before, You'll know it is non-trivial to write them so Bicep is a step to make it easier.  
+
+All details about Bicep is available at [Bicep Github](https://github.com/Azure/bicep)
+
 # Bicep Workshop
 
-This repo contains the challenges to learn the [Bicep](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep).
+This workshop will help you to understand & implement the templates in [Bicep](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep). You will go through multiple challenges and after completing the challenges you should have a working knowledge of Bicep.
 
 ## Environment Setup
 
@@ -13,21 +25,9 @@ You need to setup your machine before you should run the challenges.
 - CLI setup
   - Please refer this [link](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/install) to install & run Bicep. You can use either Azure CLI or Powershell.
 
-## What is Bicep
+Once you have setup your environment, You can start the bicep workshop [challenges](./Challenge1.md).
 
-Bicep is a new template language which is used to create the ARM template. You can either write ARM JSON from scratch or use Bicep language to create the ARM template. Bicep is a domain-specific language(DSL) that uses declarative syntax to deploy Azure resources.
-
-![Bicep to resources](./Images/bicep.png)
-
-You can read more about [Bicep here](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep).
-
->If you have provisioned JSON templates before, You'll know it is non-trivial to write them so Bicep is a step to make it easier.  
-
-This workshop will help you to understand & implement the Bicep language. You will go through multiple challenges and after completing the challenges you should have working knowledge of Bicep.
-
-## How to run the challenges
-
-Before you 
+<hr/>
 
 ## Engineering Docs
 
