@@ -2,6 +2,8 @@
 
 Congratulations on creating your first Bicep template in [Challenge 1](./Challenge1.md). Now you have basic understanding of how Bicep works and how do you deploy your Bicep templates.
 
+## Challenge
+
 "ChocoFaco" development team is moving from Virtual machines to managed services on Azure. Their new application needs to run on a windows App service which also requires some dependecies to run. You are given a task to do the following:
 
 1. Create a new Windows App service & share the app service URL with the development team.

@@ -2,6 +2,8 @@
 
 In the [previous challenge](./Challenge3.md) you created the automated pipelines to provision the infrastructure for the applications.
 
+## Challenge
+
 This all works well for a sinle development team and you have bestowed upon with a task to share the template across the organization. Right now, there are different discussions happening across ChocoFaco to use this template or add more generic template however for now some other team wants to use your template and asked you to share the template with them. Due to obvious reasons, you doesn't want to share the repo code with them so you thought about sharing it via Private registry.
 
 Create a new private registry and share your template using that private registry. Also, show the new team on how you can directly consume the template from the registry.

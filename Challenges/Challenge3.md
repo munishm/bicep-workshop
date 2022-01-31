@@ -2,6 +2,8 @@
 
 Excellent work on completing the full application with dependencies template in [challenge 2](./Challenge2.md)
 
+## Challenge
+
 "ChocoFaco" development team wants to have another environment where they can showcase the features in flight to the business executives. The team has asked you to create a new environment with same resources but with lower configuration so the price quotas can be met.
 
 Do the modifications in the existing template so the new environment with the same template. There should be an option through which one could tell whether you want to provision for production or non-production environment.
