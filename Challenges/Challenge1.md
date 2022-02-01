@@ -17,13 +17,14 @@ Excerpt from Bicep documentation:
 Bicep is more of a revision to the existing ARM template language rather than an entirely new language. While most of the syntax has been changed, the core functionality of ARM templates and the runtime remains the same. You have the same template functions, same resource declarations, etc.
 ***
 
-Let's start with writing you first template.
+Let's start with writing your first template.
 
 ## Writing your First Bicep template
 
 ChocoFaco Data team requires to migrate some data and they need an Azure Data Factory managed service and the Data team lead has requested you to provision a new ADF for her team. You will use this opportunity to create the resource using Bicep.
 
 1. Use Visual studio code to write your bicep template.
+
     > Bicep extension makes the experience of writing bicep better. 
 2. Create a **new resource group** in which the ADF will be provisioned. [Link to create new resource group using CLI](https://docs.microsoft.com/en-us/cli/azure/group?view=azure-cli-latest#az-group-create).
 
@@ -44,7 +45,7 @@ You are now requested to add a new tag to the resource as
   "Team": "ChocoFacoDT"
   ```
 
-For adding the tag, you will do the modifications in your template in VS code & then You should be ready to deploy it again.
+For adding the tag, you will do the modifications in your template using VS code & then You should be ready to deploy it again.
 
  > How do you make sure the changes are correct before you actually deploy the template. You can use "what-if" analysis as discussed below.
 
@@ -56,14 +57,14 @@ Your Bicep template is ready and you can't wait to deploy the template but you a
 
 ## Compiling & Decompiling to ARM JSON template
 
-Bicep also helps to convert the Bicep templates to JSON templates & viceversa. You can convert to JSON template using the `Build` command.
+Bicep can convert the Bicep templates to JSON templates & viceversa. You can convert Bicep to JSON template using the `Build` command.
 
-Try converting your bicep template to the JSON template or take an existing JSON template from Azure to convert it into Bicep.
+Convert your bicep template to the JSON template.
+
+Bicep can also decompile an existing JSON template to Bicep. 
 
 Steps to decompile: 
 https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/decompile?tabs=azure-cli
 
 
-Congratulations on completing your first Bicep challenge. Let's now move to writing some more detailed templates.
-
-[Click here](./Challenge2.md) to go to next Challenge.
+Congratulations on completing your first Bicep challenge. Let's move to writing some more detailed templates. [Click here](./Challenge2.md) to go to next Challenge.
