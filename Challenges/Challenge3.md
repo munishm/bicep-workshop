@@ -1,10 +1,10 @@
 # Challenge 3: What about Environments
 
-Excellent work on completing the template to provison a full application with dependencies in [challenge 2](./Challenge2.md). We should be ready to create different environments using a Bicep template.
+Excellent work on completing the template to provision a full application with dependencies in [challenge 2](./Challenge2.md). We should be ready to create different environments using a Bicep template.
 
 ## Challenge
 
-"ChocoFaco" development team wants to have another environment where they can showcase the features in flight to executives. The team has asked you to create a new environment with similar type of resources but with **lower configuration** so the price quotas can be met.
+The "ChocoFaco" development team wants to have another environment where they can showcase the features in flight to executives. The team has asked you to create a new environment with a similar type of resources but with **lower configuration** so the price quotas can be met.
 
 You are requested to modify the existing template so the new environment can be provisioned using the same template with a conditional setting. There should be an option through which one could decide the environment type. 
 

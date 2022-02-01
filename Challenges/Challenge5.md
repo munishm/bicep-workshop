@@ -1,10 +1,10 @@
-# Challenge 4: Publishing Artifcats
+# Challenge 5: Publishing Artifcats
 
-In the [previous challenge](./Challenge3.md) you created the automated pipelines to provision the infrastructure for the applications. Let us now work on publishing the bicep templates.
+In the [previous challenge](./Challenge4.md) you created the automated pipelines to provision the infrastructure for the applications. Let us now work on publishing the bicep templates.
 
 ## Challenge
 
-This all works well for a sinle development team and you have bestowed upon with a task to share the template across the organization. 
+This all works well for a single development team and you have been bestowed upon with a task to share the template across the organization. 
 
 You can read more about template specs [here](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-specs?tabs=azure-powershell)
 

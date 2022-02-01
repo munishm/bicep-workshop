@@ -1,26 +1,26 @@
 # Challenge 2: Complete Stack
 
-Congratulations on creating your first Bicep template in [Challenge 1](./Challenge1.md). By now you should have some basic understanding of how Bicep works and how to deploy Bicep templates. Let us now work on a template for a full stack application.
+Congratulations on creating your first Bicep template in [Challenge 1](./Challenge1.md). By now you should have some basic understanding of how Bicep works and how to deploy Bicep templates. Let us now work on a template for a full-stack application.
 
 ## Challenge
 
-"ChocoFaco" development team is moving from Virtual machines to managed services on Azure. Their new application needs to run on a windows App service which also requires some dependecies to run. You are requested to provison the following resources:
+The "ChocoFaco" development team is moving from Virtual machines to managed services on Azure. Their new application needs to run on a Windows App service which also requires some dependencies to run. You have requested to provision the following resources:
 
 1. A windows App service 
-2. Cosmos DB SQL API, this is required for data persistence.
+2. Cosmos DB SQL API, is required for data persistence.
 3. Storage account with a blob container
 
 
-After the resources are provisioned, you are requested to also output the URL of App service.
+After the resources are provisioned, you are requested to also output the URL of the App service.
 
-As a lead you are also advised to look into modularizing the code as much as possible. Learn more about [Bicep modules](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/modules)
+As a leader, you are also advised to look into modularizing the code as much as possible. Learn more about [Bicep modules](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/modules)
 
 Learn about the Bicep best practices from [here](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/best-practices)
 
-Few of the considerations to take care when developing and deploying the Bicep template:
+Few of the considerations to take care of when developing and deploying the Bicep template:
 
-- Proper description of the parametes and variables
-- Parent Child relationship
+- Proper description of the parameters and variables
+- Parent-Child relationship
 - Define the Output parameters correctly
 - Use of decorators
 - Uniqueness of resources

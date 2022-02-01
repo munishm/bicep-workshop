@@ -1,10 +1,10 @@
-# Challenge 3: Integration with Pipelines
+# Challenge 4: Integration with Pipelines
 
-In this challenge we'll do the intergration of Bicep template with the Pipelines to provision the infrastructure.
+In this challenge, we'll do the integration of the Bicep template with the Pipelines to provision the infrastructure.
 
 ## Challenge
 
-"ChocoFaco" leadership is happy with the progress we have made so far in this space. They are looking for ways where someone should be able to provision the resources by a click of button.
+The "ChocoFaco" leadership is happy with the progress we have made so far in this space. They are looking for ways where someone should be able to provide the resources with a click of a button.
 
 
 You are requested to integrate the Bicep templates either with Azure DevOps pipelines or Github Actions so that the infra can be deployed using the pipelines.
