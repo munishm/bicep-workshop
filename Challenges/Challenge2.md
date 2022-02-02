@@ -9,11 +9,11 @@ The "ChocoFaco" development team is moving from Virtual machines to managed serv
 1. A windows App service 
 2. Cosmos DB SQL API, is required for data persistence.
 3. Storage account with a blob container
-
+4. Azure application Insights
 
 After the resources are provisioned, you are requested to also output the URL of the App service.
 
-As a leader, you are also advised to look into modularizing the code as much as possible. Learn more about [Bicep modules](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/modules)
+You are also advised to look into modularizing the code as much as possible. Learn more about [Bicep modules](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/modules)
 
 Learn about the Bicep best practices from [here](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/best-practices)
 
