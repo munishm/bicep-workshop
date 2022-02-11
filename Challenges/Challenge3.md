@@ -12,7 +12,7 @@ The probable options should be `prod` & `non-prod`
 
 > For the non-production environment, keep the lowest configuration possible. Keep different SKU and Storage account types for prod vs non-prod environments.
 
-***For Non-production environment, You are requested to create the resource group too.*** 
+***For Non-production environment, You are requested NOT to create Cosmos DB*** 
 
 You can use the [conditional resource deployment](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/conditional-resource-deployment) for conditions.
 
