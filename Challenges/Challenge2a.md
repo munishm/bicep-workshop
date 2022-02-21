@@ -1,4 +1,11 @@
-# Challenge 2a: Managing secrets
+# Challenge 2a: Modulazing templates & Managing secrets
+
+Amazing work on completing the template of a full stack application in previous challenge. In this challenge we will look into modularizing the bicep template & how to share the secrets in the template.
+
+## Challenge
+
+You are advised to modularize the code as much as possible. Learn more about [Bicep modules](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/modules)
+
 
 When you are managing the secrets like connection strings, You are advised to look into the Bicep best practices to understand [Secret management scenarios](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/scenarios-secrets)
 

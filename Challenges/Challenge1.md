@@ -7,10 +7,10 @@ In this challenge you'll create a new Bicep template using Visual studio code, w
 
 ## ARM JSON Templates vs Bicep Templates
 
-To understand better how Bicep outshines the ARM JSON templates, you need to understand what is ARM JSON template is. ARM templates are written in JSON to provision the Azure resources. In case you have not worked with ARM JSON templates before, we recommend reading this [link](You can learn more about ARM templates from this [link](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview).
+To understand better how Bicep outshines the ARM JSON templates, you need to understand what is ARM JSON template is. Before Bicep, ARM templates were written in JSON to provision the Azure resources. In case you have not worked with ARM JSON templates before, we recommend reading this [link](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview).
 
 
-How is Bicep different from ARM JSON templates:
+*How is Bicep different from ARM JSON templates:*
 
 Excerpt from Bicep documentation:
 ***
@@ -26,13 +26,13 @@ ChocoFaco Data team requires to migrate some data and they need an Azure Data Fa
 1. Use Visual studio code to write your bicep template.
 
     > Bicep extension makes the experience of writing bicep better. 
-2. Create a **new resource group** in which the ADF will be provisioned. [Link to create new resource group using CLI](https://docs.microsoft.com/en-us/cli/azure/group?view=azure-cli-latest#az-group-create).
+2. Create a **new resource group** from either Azure CLI or portal in which the ADF will be provisioned. [Link to create new resource group using CLI](https://docs.microsoft.com/en-us/cli/azure/group?view=azure-cli-latest#az-group-create).
 
 
 ## Deploy your template
 
 Once you are ready with the Bicep template, You can deploy the resource using **Azure CLI**.
->  Please check if you are on the correct subscription before you deploy
+>  Please check if you are on the correct subscription before you deploy the resource
 
 [How to deploy Bicep?](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/deploy-cli)
 
@@ -45,7 +45,7 @@ You are now requested to add a new tag to the resource as
   "Team": "ChocoFacoDT"
   ```
 
-For adding the tag, you will do the modifications in your template using VS code & then You should be ready to deploy it again.
+For adding the tag, you will do the modifications in your template using VS code & then you should be ready to re-deploy it.
 
  > How do you make sure the changes are correct before you deploy the template. You can use "what-if" analysis as discussed below.
 

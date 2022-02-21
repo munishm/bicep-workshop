@@ -8,7 +8,7 @@ You can read more about [Bicep here](https://docs.microsoft.com/en-us/azure/azur
 
 >If you have provisioned JSON templates before, You'll know it is non-trivial to write them so Bicep is a step to make it easier.  
 
-More details about Bicep is available at [Github](https://github.com/Azure/bicep)
+Bicep project is maintained at [Github](https://github.com/Azure/bicep)
 
 # Bicep Workshop
 
