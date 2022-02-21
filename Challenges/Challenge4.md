@@ -4,7 +4,7 @@ In this challenge, we'll do the integration of the Bicep template with the Pipel
 
 ## Challenge
 
-The "ChocoFaco" leadership is happy with the progress we have made so far in this space. They are looking for ways where someone should be able to provide the resources with a click of a button.
+The "ChocoFaco" leadership is happy with the progress we have made so far in this space. They are looking for ways where someone should be able to provide the resources to the team with a click of a button.
 
 
 You are requested to integrate the Bicep templates either with Azure DevOps pipelines or Github Actions so that the infra can be deployed using the pipelines.

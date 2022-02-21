@@ -1,6 +1,6 @@
 # Challenge 3: What about Environments
 
-Excellent work on completing the template to provision a full application with dependencies in [challenge 2](./Challenge2.md). We should be ready to create different environments using a Bicep template.
+Excellent work on completing the template to provision a full application with dependencies in [challenge 2](./Challenge2a.md). We should be ready to create different environments using a Bicep template.
 
 ## Challenge
 
@@ -12,7 +12,7 @@ The probable options should be `prod` & `non-prod`
 
 > For the non-production environment, keep the lowest configuration possible. Keep different SKU and Storage account types for prod vs non-prod environments.
 
-***For Non-production environment, You are requested NOT to create Cosmos DB*** 
+***For Non-production environment, You are requested NOT to create Cosmos DB, as an already provisioned Cosmos DB will be shared with the development team*** 
 
 You can use the [conditional resource deployment](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/conditional-resource-deployment) for conditions.
 
